@@ -1,0 +1,47 @@
+# This file was created Tue Oct 17 14:23:58 2023
+# Created by:
+#                      :-) GROMACS - gmx covar, 2022.1 (-:
+# 
+# Executable:   /cm/shared/apps/gromacs/2022.1/bin/gmx
+# Data prefix:  /cm/shared/apps/gromacs/2022.1
+# Working dir:  /data/users/lipengfei/benchmark/gromacs/PCA/example
+# Command line:
+#   gmx covar -s ref.pdb -f md1_backbone.xtc -o largest_eigenval.xvg -last 30
+# gmx covar is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Eigenvalues of the covariance matrix"
+@    xaxis  label "Eigenvector index"
+@    yaxis  label "(nm\S2\N)"
+@TYPE xy
+         1 1.02891
+         2 0.538317
+         3 0.366737
+         4 0.302699
+         5 0.217258
+         6 0.160734
+         7 0.12764
+         8 0.117547
+         9 0.096772
+        10 0.0707734
+        11 0.0645506
+        12 0.0590752
+        13 0.0546667
+        14 0.0531277
+        15 0.047054
+        16 0.0419096
+        17 0.0383775
+        18 0.0352668
+        19 0.0343897
+        20 0.029143
+        21 0.0288181
+        22 0.0271581
+        23 0.0247519
+        24 0.0237374
+        25 0.0223821
+        26 0.0210731
+        27 0.0207585
+        28 0.0203699
+        29 0.0178513
+        30 0.0172263
